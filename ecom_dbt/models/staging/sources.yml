@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: ecom_raw
+    database: ae-capstone-2025
+    schema: raw
+    tables:
+      - name: olist_orders
+      - name: olist_order_items
+      - name: olist_customers
+      - name: olist_products
+      - name: olist_sellers
+      - name: olist_payments
+      - name: olist_reviews
+      - name: synthetic_customers
+      - name: product_category_translations

@@ -1,0 +1,9 @@
+.env
+logs/
+target/
+dbt_packages/
+dataset/
+*.csv
+*.gz
+__pycache__/
+.astro/
